@@ -1,0 +1,51 @@
+html {
+    background-color: #333;
+    color: #ccc;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+h1 {
+    color: #6897bb;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p.loader {
+    padding-left: 22px;
+}
+
+p.invalid-json {
+    padding-left: 22px;
+    color: #bc3f3c;
+}
+
+button {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #6897bb;
+    border: 0;
+    height: 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: lightblue;
+}
+
+button:disabled {
+    color: #888888;
+    cursor: inherit;
+}
+
+.json-container {
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+.json-container .json-key {
+    color: inherit;
+}

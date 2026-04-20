@@ -1,0 +1,19 @@
+{
+    "name": "music",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev-server": "nodemon backend/server.js",
+        "prod-server": "node backend/server.js",
+        "create-db": "node db/createDb.js"
+    },
+    "dependencies": {
+        "dotenv": "17.3.1",
+        "express": "5.2.1",
+        "pg": "8.20.0",
+        "pg-upload": "0.0.10"
+    },
+    "devDependencies": {
+        "nodemon": "3.1.14"
+    }
+}

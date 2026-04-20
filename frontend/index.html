@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music</title>
+        <script src="jsonview.js"></script>
+        <script src="endpoint-user.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    </body>
+    <script>
+        useEndpoint('GET', '/api/artist/120');
+        useEndpoint('GET', '/api/artist/99999');
+        useEndpoint('GET', '/api/albumsByReleaseDate?limit=5');
+        useEndpoint('GET', '/api/artist/Metallica/albums?limit=5');
+    </script>
+</html>

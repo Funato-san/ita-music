@@ -1,0 +1,5 @@
+id,name,description,sample rate in kHz,bit depth,is lossless?
+1,AAC,"Advanced Audio Coding, a digital audio format designed to be the successor of MP3, offering improved sound quality at similar bit rates.",44.1,16,false
+2,MP3,"MPEG Audio Layer III, a widely-used digital audio format that compresses audio data to reduce file size while maintaining acceptable sound quality.",44.1,16,false
+4,WAV,"Waveform Audio File Format, an uncompressed audio format that provides high-quality sound but larger file sizes.",44.1,32,true
+5,FLAC,"Free Lossless Audio Codec, an audio format that compresses audio without any loss of quality, maintaining the original sound quality at reduced file sizes.",192.0,24,true
